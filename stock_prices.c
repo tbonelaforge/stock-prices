@@ -33,7 +33,6 @@ int maximize_stock_profit(struct stock_prices * self) {
 }
 
 int next_extremum(struct stock_prices * self) {
-printf("Inside next_extremum, got called\n");
     if (self->i >= self->how_many_prices - 1) {
         return -1;
     }
